@@ -1,5 +1,5 @@
-.myenv# Ignore virtual environment
-.myenv/
+myenv
+myenv/
 
 # Ignore Python bytecode files
 *.pyc
