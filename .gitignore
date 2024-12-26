@@ -1,1 +1,21 @@
-.myenv
+.myenv# Ignore virtual environment
+.myenv/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore environment configuration files
+.env
+.venv
+venv/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# Ignore distribution/build files
+*.egg-info/
+dist/
+build/
